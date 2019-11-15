@@ -154,6 +154,15 @@ def player_numbers(team)
 end
 
 
+def player_stats(player_name)
+  game_hash.values.find do |stats|
+    stats[:players].find do |player|
+      if player.has_value?(player_name)
+        player.delete(:player_name)
+        return player 
+    end
+end
+
 
 
 
