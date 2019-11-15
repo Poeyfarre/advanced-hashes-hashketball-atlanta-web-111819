@@ -25,6 +25,16 @@ def game_hash
           :blocks =>
           :slam_dunks =>
         },
+        "Alan Anderson" => {
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
+        },
         
       }
     }
