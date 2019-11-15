@@ -121,9 +121,9 @@ def num_points_scored(player_name)
   game_hash.values.find do |team_name|
     team_name[:players].find do |players|
     return players[:points] if players.has_value? (player_name)
-  
+  end
 end
-
+end
 
 
 
