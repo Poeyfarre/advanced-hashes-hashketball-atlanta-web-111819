@@ -148,7 +148,8 @@ end
 def player_numbers(team)
   game_hash.values.find do |player_numbers|
     if player_numbers.has_value?(team)
-      return player_numbers[:players].map {|player_number|}
+      return player_numbers[:players].map {|player_number| player_number[:number]}
+    end
   end
 end
 
