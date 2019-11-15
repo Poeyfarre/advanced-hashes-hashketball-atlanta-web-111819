@@ -137,10 +137,13 @@ def team_colors(team)
   game_hash.values.find do |team_color|
     if team_color.has_value?(team)
       return team_color[:colors].map
-
+    end
 end
 end
 
+def team_names
+  game_hash.values.map {|team_names| team_names[:team_name]}
+end
 
 
 
