@@ -61,7 +61,7 @@ def game_hash
       :team_name => "Charlotte Hornets"
       :colors => ["Turqoise", "Purple"],
       :players => {
-        "Alan Anderson" => {
+        "Jeff Adrien" => {
           :number =>
           :shoe =>
           :points =>
@@ -71,7 +71,7 @@ def game_hash
           :blocks =>
           :slam_dunks =>
         },
-        "Alan Anderson" => {
+        "Bismack Biyombo" => {
           :number =>
           :shoe =>
           :points =>
@@ -81,7 +81,7 @@ def game_hash
           :blocks =>
           :slam_dunks =>
         },
-        "Alan Anderson" => {
+        "DeSagna Diop" => {
           :number =>
           :shoe =>
           :points =>
@@ -91,7 +91,7 @@ def game_hash
           :blocks =>
           :slam_dunks =>
         },
-        "Alan Anderson" => {
+        "Ben Gordon" => {
           :number =>
           :shoe =>
           :points =>
@@ -101,7 +101,16 @@ def game_hash
           :blocks =>
           :slam_dunks =>
         },
-        
+        "Kemba Walker" => {
+          :number =>
+          :shoe =>
+          :points =>
+          :rebounds =>
+          :assists =>
+          :steals =>
+          :blocks =>
+          :slam_dunks =>
+        },
       }
     }
   }
